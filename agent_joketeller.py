@@ -15,9 +15,9 @@ print("✅ Logged in to Hugging Face Hub successfully!")
 
 # 2) Pick a small model that runs fine on CPU
 # MODEL_ID = "google/flan-t5-base"
-# MODEL_ID = "Qwen/Qwen2.5-1.5B-Instruct"
+MODEL_ID = "Qwen/Qwen2.5-1.5B-Instruct"
 # MODEL_ID = "meta-llama/Llama-3.2-3B-Instruct"
-MODEL_ID = "deepseek-ai/DeepSeek-V2-Lite-Chat"
+# MODEL_ID = "deepseek-ai/DeepSeek-V2-Lite-Chat"
 
 # 3) Build a text-generation pipeline (CPU mode to avoid Mac MPS issues)
 pipe = pipeline(
